@@ -9,21 +9,19 @@
 </head>
 
 <body>
-
     <div class="container">
         <form action="proses.php" method="post">
             <h2>Form PHP Method POST</h2>
 
             <label for="nama">Nama:</label>
-            <input type="text" id="nama" name="nama" required>
+            <input type="text" id="nama" name="nama" />
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <input type="email" id="email" name="email" />
 
             <input type="submit" value="Submit">
         </form>
     </div>
-
 </body>
 
 </html>
