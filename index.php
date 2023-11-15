@@ -1,17 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PHP GET and POST Method Example</title>
+
+    <!-- include css file here-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- include JavaScript file here-->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/metode.js"></script>
+
 </head>
 
 <body>
-    <div>
-        <div>
-            <form action="">
-                <h2>Form</h2>
+    <div class="container">
+        <div class="main">
+            <form method="get" action="index.php" id="form">
+                <h2>SIMPLE FORM PHP DENGAN METHOD GET POST</h2>
                 <hr />
 
                 <label>Nama :</label>
@@ -22,14 +28,14 @@
 
                 <label>Pilih Metode :</label>
                 <span><input type="radio" name="method" value="get" checked> GET &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <input type="radio" name="method" value="post">POST</span>
+                    <input type="radio" name="method" value="post"> POST </span>
 
                 <input type="submit" name="submit" id="submit" value="Submit">
             </form>
-
             <?php include "proses.php"; ?>
         </div>
     </div>
+
 </body>
 
 </html>
