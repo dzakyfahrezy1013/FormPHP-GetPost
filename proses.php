@@ -1,4 +1,5 @@
 <?php
+//sintak php untuk method POST
 if (isset($_POST['nama'])) {
     $nama = $_POST['nama'];
     $email = $_POST['email'];
@@ -6,6 +7,7 @@ if (isset($_POST['nama'])) {
     echo "Nama : " . $nama . "<br/>Email : " . $email;
 }
 //--------------------------------------------------------------------
+//sintak php untuk method POST
 if (isset($_GET['nama'])) {
     $nama = $_GET['nama'];
     $email = $_GET['email'];
