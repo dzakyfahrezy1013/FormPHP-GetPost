@@ -6,10 +6,10 @@ $(document).ready(function(){
     });
     
     $("#submit").click(function(){ 
-        var fnama = $("#fnama").val();
-        var lalamat = $("#lalamat").val();
+        var nama = $("#nama").val();
+        var alamat = $("#alamat").val();
         
-        if( fnama != '' || lalamat !='' ){
+        if( nama != '' || alamat !='' ){
             return true; 
         }	
         else{

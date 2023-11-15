@@ -21,10 +21,10 @@
                 <hr />
 
                 <label>Nama :</label>
-                <input type="text" name="fnama" id="fnama" />
+                <input type="text" name="nama" id="nama" />
 
                 <label>Alamat :</label>
-                <input type="text" name="lalamat" id="lalamat" />
+                <input type="text" name="alamat" id="alamat" />
 
                 <label>Pilih Metode :</label>
                 <span><input type="radio" name="method" value="get" checked> GET &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
